@@ -11,12 +11,16 @@ spring:
             routes:
                 - id: hello-spring-cloud-web-admin-feign
                   uri: lb://hello-spring-cloud-web-admin-feign
+                  order: 0
                   predicates:
-                      - Path=/api/**
+                      - Path=/api/user/**
+                  filters:
+                    - StripPrefix=1
+                    - AddResponseHeader=X-Response-Default-Foo, Default-Bar
                 - id: test
-                  uri: https://www.baidu.com
+                  uri: https://blog.csdn.net
                   predicates:
-                      - Path=/test/**
+                      - Path=/meteor_93
 
 eureka:
     client:
