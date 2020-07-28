@@ -1,0 +1,24 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: api-gateway
+    cloud:
+        gateway:
+            discovery:
+                locator:
+                    enabled: true
+            routes:
+                - id: hello-spring-cloud-web-admin-feign
+                  uri: lb://hello-spring-cloud-web-admin-feign
+                  predicates:
+                      - Path=/api/**
+                - id: hello-spring-cloud-service
+                  uri: lb://hello-spring-cloud-service
+                  predicates:
+                      - Path=/a/**
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
