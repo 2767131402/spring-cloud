@@ -13,10 +13,10 @@ spring:
                   uri: lb://hello-spring-cloud-web-admin-feign
                   predicates:
                       - Path=/api/**
-                - id: hello-spring-cloud-service
-                  uri: lb://hello-spring-cloud-service
+                - id: test
+                  uri: https://www.baidu.com
                   predicates:
-                      - Path=/a/**
+                      - Path=/test/**
 
 eureka:
     client:

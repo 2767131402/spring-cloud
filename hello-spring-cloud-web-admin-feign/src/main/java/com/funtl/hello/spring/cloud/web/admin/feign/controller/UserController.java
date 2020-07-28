@@ -13,6 +13,7 @@ public class UserController {
 
     @RequestMapping(value = "/user")
     public String test(){
+        System.out.println("进入hello-spring-cloud-web-admin-feign。。。。");
         return userService.test("111");
     }
 }
