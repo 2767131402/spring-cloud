@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * 路由 hello-spring-cloud-web-admin-feign 失败时的回调
  * <p>Title: WebAdminFeignFallbackProvider</p>
- * <p>Description: </p>
+ * <p>Description: 实现FallbackProvider是为Zuul提供熔断回退类，当API不可调用时，提供熔断降级处理</p>
  */
 @Component
 public class WebAdminFeignFallbackProvider implements FallbackProvider {

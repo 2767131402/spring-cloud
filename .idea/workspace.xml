@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870833b5-60dc-4b56-a19f-a79d0db0037d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_log4jdbc_log4jdbc_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/controller/RefreshRouteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/filter/ZuulRouteLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/db/zuul.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-gateway/src/main/java/com/zhenglei/gateway/conf/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-gateway/src/main/java/com/zhenglei/gateway/conf/RouteConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/fallback/WebAdminFeignFallbackProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/java/com/funtl/hello/spring/cloud/zuul/fallback/WebAdminFeignFallbackProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +48,6 @@
         <option value="Interface" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>table</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -83,7 +89,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hello-spring-cloud-gateway/src/main/java/com/zhenglei" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../idea-code/springcloud-learning-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-spring-cloud-zuul/src/main/resources/db" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,6 +108,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.funtl.hello.spring.cloud.web.admin.feign.service.hystrix" />
       <recent name="com.funtl.hello.spring.cloud.web.admin.feign.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\soft\idea-work\spring-cloud\hello-spring-cloud-zuul\src\main\resources\db" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -141,13 +150,6 @@
     <configuration name="HelloSpringCloudGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello-spring-cloud-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenglei.gateway.HelloSpringCloudGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloSpringCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hello-spring-cloud-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenglei.hellospringcloudgateway.HelloSpringCloudGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,7 +215,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.22350994" />
+          <option name="contentProportion" value="0.3021523" />
           <treeState>
             <expand>
               <path>
@@ -228,7 +230,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -266,7 +268,8 @@
       <workItem from="1572569062768" duration="588000" />
       <workItem from="1572871095369" duration="213000" />
       <workItem from="1586760996738" duration="734000" />
-      <workItem from="1595754552406" duration="12939000" />
+      <workItem from="1595754552406" duration="14628000" />
+      <workItem from="1596016724616" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1595944089189</created>
@@ -282,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595945063438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交">
+      <created>1595947489074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595947489074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -303,10 +313,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1595945062150">
+    <state x="288" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596020142898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1595945062150" />
+    <state x="288" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1596020142898" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1595947488184">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1595947488184" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1595756761386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -315,38 +329,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="457" y="239" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1595946656676" />
-    <state width="937" height="202" key="GridCell.Tab.0.bottom" timestamp="1595947474930">
+    <state width="842" height="299" key="GridCell.Tab.0.bottom" timestamp="1596019574747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595947474930" />
-    <state width="937" height="202" key="GridCell.Tab.0.center" timestamp="1595947474929">
+    <state width="842" height="299" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596019574747" />
+    <state width="842" height="299" key="GridCell.Tab.0.center" timestamp="1596019574746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595947474929" />
-    <state width="937" height="202" key="GridCell.Tab.0.left" timestamp="1595947474929">
+    <state width="842" height="299" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596019574746" />
+    <state width="842" height="299" key="GridCell.Tab.0.left" timestamp="1596019574746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595947474929" />
-    <state width="937" height="202" key="GridCell.Tab.0.right" timestamp="1595947474930">
+    <state width="842" height="299" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596019574746" />
+    <state width="842" height="299" key="GridCell.Tab.0.right" timestamp="1596019574747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595947474930" />
-    <state width="937" height="202" key="GridCell.Tab.1.bottom" timestamp="1595947474930">
+    <state width="842" height="299" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596019574747" />
+    <state width="842" height="299" key="GridCell.Tab.1.bottom" timestamp="1596019574747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595947474930" />
-    <state width="937" height="202" key="GridCell.Tab.1.center" timestamp="1595947474930">
+    <state width="842" height="299" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596019574747" />
+    <state width="842" height="299" key="GridCell.Tab.1.center" timestamp="1596019574747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1595947474930" />
-    <state width="937" height="202" key="GridCell.Tab.1.left" timestamp="1595947474930">
+    <state width="842" height="299" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1596019574747" />
+    <state width="842" height="299" key="GridCell.Tab.1.left" timestamp="1596019574747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1595947474930" />
-    <state width="937" height="202" key="GridCell.Tab.1.right" timestamp="1595947474930">
+    <state width="842" height="299" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1596019574747" />
+    <state width="842" height="299" key="GridCell.Tab.1.right" timestamp="1596019574747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="937" height="202" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1595947474930" />
+    <state width="842" height="299" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1596019574747" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1595755690192">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -355,10 +369,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1595944537412" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1595945064913">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1595947490242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1595945064913" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1595947490242" />
     <state x="439" y="121" key="chooseDestDirectoryDialog" timestamp="1595754975252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
